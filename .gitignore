@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Resource forks and thumbnails
+._*
+
+# Files that may appear at the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Created on remote AFP shares
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# R session state
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto / Typst build output. The Typst poster design is superseded; its
+# final state lives on the local-only `quarto` branch.
+.quarto/
+poster_files/
+
+# Agent tooling, machine-local
+.claude/
+.agents/
+
+# Working notes, deliberately not published
+todo.md
+
+# Internal working brief, contains local paths
+poster_project_*.txt
