@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this poster or its code, please cite this work as below."
+title: "R Environment for Environmental Sciences: Four Packages Worth Knowing"
+abstract: >-
+  Conference poster introducing four R packages -- renv, pins, testthat and
+  rmarkdown -- that together close the practical reproducibility gap between
+  raw data and published results in ecological research. Each panel maps one
+  package onto one failure mode, and a central worked example combines all
+  four. The repository holds the poster itself and the R script that
+  generates its QR code.
+authors:
+  - family-names: Sagouis
+    given-names: Alban
+    orcid: https://orcid.org/0000-0002-3827-1063
+    affiliation: "German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig"
+version: v1.0.0
+date-released: 2026-09-08
+license: CC-BY-4.0
+keywords:
+  - reproducibility
+  - research software
+  - R
+  - renv
+  - pins
+  - testthat
+  - rmarkdown
+  - ecology
+  - biodiversity
+preferred-citation:
+  type: conference-paper
+  title: "R Environment for Environmental Sciences: Four Packages Worth Knowing"
+  authors:
+    - family-names: Sagouis
+      given-names: Alban
+      orcid: https://orcid.org/0000-0002-3827-1063
+      affiliation: "German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig"
+  year: 2026
+  month: 9
+  conference:
+    name: "iDiv Conference 2026"
+    city: Jena
+    country: DE
+    date-start: 2026-09-08
+    date-end: 2026-09-09
