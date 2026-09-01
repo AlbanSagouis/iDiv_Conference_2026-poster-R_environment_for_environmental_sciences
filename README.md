@@ -26,9 +26,9 @@ the other three.
 
 | Path | What it is |
 |---|---|
-| `poster.html` | The poster: A0 portrait (841 × 1189 mm), self-contained — no external assets, fonts or scripts. Open it in any browser. |
+| `poster.html` | The poster: A0 portrait (841 × 1189 mm), self-contained — every image, font and script is embedded, so this one file is the whole deliverable. Open it in any browser. |
 | `generate_qr.R` | Generates the poster's QR code as a compact single-path SVG. |
-| `assets/` | Package logos, iDiv marks, and the generated QR code. |
+| `assets/` | The generated QR code. Source material only — `poster.html` embeds its own copy and does not read this directory. |
 | `abstract.md` | The conference abstract. |
 | `renv.lock` | Pinned R environment. |
 
