@@ -2,12 +2,12 @@ cff-version: 1.2.0
 message: "If you use this poster or its code, please cite this work as below."
 title: "R Environment for Environmental Sciences: Four Packages Worth Knowing"
 abstract: >-
-  Conference poster introducing four R packages -- renv, pins, testthat and
-  rmarkdown -- that together close the practical reproducibility gap between
-  raw data and published results in ecological research. Each panel maps one
-  package onto one failure mode, and a central worked example combines all
-  four. The repository holds the poster itself and the R script that
-  generates its QR code.
+  Conference poster introducing four R packages: renv, pins, testthat and
+  rmarkdown. Together they close the practical reproducibility gap between raw
+  data and reliable, publishable results in ecological research. Each panel
+  maps one package onto one failure mode, and a worked example combines all
+  four. The repository holds the poster itself and the R script that generates
+  its QR code.
 authors:
   - family-names: Sagouis
     given-names: Alban
