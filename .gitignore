@@ -34,6 +34,12 @@ Temporary Items
 .quarto/
 poster_files/
 
+# Poster exports from the Claude Design canvas. Regenerable, and each already
+# has a permanent home: the A0 on the Zenodo record, the A4 committed in the
+# website repo. Keeping them out of git also keeps the v1.0.0 tag byte-identical
+# to the source snapshot archived on Zenodo.
+*.pdf
+
 # Agent tooling, machine-local
 .claude/
 .agents/
