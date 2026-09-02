@@ -817,7 +817,7 @@ doc-page:not(:defined) { visibility: hidden; }
 
 <!-- band renv -->
     <div style="display:flex; padding:5px 96px; gap:42px; align-items:flex-start; border-top:1px solid #e2e0d8;">
-      <div style="flex:0 0 150px; position:relative; align-self:stretch;">
+      <div style="flex:0 0 175px; min-width:175px; position:relative; align-self:stretch;">
         <div style="position:absolute; right:0; top:60px; bottom:-24px; width:4px; background:#c7c4b9;"></div>
         <div style="position:absolute; right:-10px; top:48px; width:23px; height:23px; border-radius:50%; background:#9a922f; border:4px solid #f5f4ef;"></div>
         <div style="font-size:120px; font-weight:800; line-height:1; color:#9a922f; text-align:right; padding-right:42px;">01</div>
@@ -847,7 +847,7 @@ doc-page:not(:defined) { visibility: hidden; }
 
     <!-- band pins -->
     <div style="display:flex; padding:8px 96px; gap:42px; align-items:flex-start; border-top:1px solid #e2e0d8;">
-      <div style="flex:0 0 150px; position:relative; align-self:stretch;">
+      <div style="flex:0 0 175px; min-width:175px; position:relative; align-self:stretch;">
         <div style="position:absolute; right:0; top:-24px; bottom:-24px; width:4px; background:#c7c4b9;"></div>
         <div style="position:absolute; right:-10px; top:48px; width:23px; height:23px; border-radius:50%; background:#c2560e; border:4px solid #f5f4ef;"></div>
         <div style="font-size:120px; font-weight:800; line-height:1; color:#c2560e; text-align:right; padding-right:42px;">02</div>
@@ -877,7 +877,7 @@ doc-page:not(:defined) { visibility: hidden; }
 
     <!-- band testthat -->
     <div style="display:flex; padding:11px 96px; gap:42px; align-items:flex-start; border-top:1px solid #e2e0d8;">
-      <div style="flex:0 0 150px; position:relative; align-self:stretch;">
+      <div style="flex:0 0 175px; min-width:175px; position:relative; align-self:stretch;">
         <div style="position:absolute; right:0; top:-24px; bottom:-24px; width:4px; background:#c7c4b9;"></div>
         <div style="position:absolute; right:-10px; top:48px; width:23px; height:23px; border-radius:50%; background:#c31b22; border:4px solid #f5f4ef;"></div>
         <div style="font-size:120px; font-weight:800; line-height:1; color:#c31b22; text-align:right; padding-right:42px;">03</div>
@@ -907,7 +907,7 @@ doc-page:not(:defined) { visibility: hidden; }
 
     <!-- band rmarkdown -->
     <div style="display:flex; padding:14px 96px; gap:42px; align-items:flex-start; border-top:1px solid #e2e0d8;">
-      <div style="flex:0 0 150px; position:relative; align-self:stretch;">
+      <div style="flex:0 0 175px; min-width:175px; position:relative; align-self:stretch;">
         <div style="position:absolute; right:0; top:-24px; bottom:-24px; width:4px; background:#c7c4b9;"></div>
         <div style="position:absolute; right:-10px; top:48px; width:23px; height:23px; border-radius:50%; background:#0f9080; border:4px solid #f5f4ef;"></div>
         <div style="font-size:120px; font-weight:800; line-height:1; color:#0f9080; text-align:right; padding-right:42px;">04</div>
@@ -935,7 +935,11 @@ doc-page:not(:defined) { visibility: hidden; }
       </div>
     </div>
 
-    <div style="height:20px; position:relative;"><div style="position:absolute; left:268px; top:-24px; bottom:0; width:4px; background:#c7c4b9;"></div></div>
+    <div style="display:flex; padding:0 96px; height:20px;">
+      <div style="flex:0 0 175px; min-width:175px; position:relative;">
+        <div style="position:absolute; right:0; top:-24px; bottom:0; width:4px; background:#c7c4b9;"></div>
+      </div>
+    </div>
 
     <!-- convergence code -->
     <div style="margin:0 96px 22px; background:#1E1E2E; border-radius:10px; border:1px solid #2b2b40; padding:22px 46px 24px;">
