@@ -15,6 +15,7 @@ authors:
     affiliation: "German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig"
 version: v1.0.0
 date-released: 2026-09-08
+doi: 10.5281/zenodo.22251096
 license: CC-BY-4.0
 keywords:
   - reproducibility
@@ -36,6 +37,7 @@ preferred-citation:
       affiliation: "German Centre for Integrative Biodiversity Research (iDiv) Halle-Jena-Leipzig"
   year: 2026
   month: 9
+  doi: 10.5281/zenodo.22251096
   conference:
     name: "iDiv Conference 2026"
     city: Jena
