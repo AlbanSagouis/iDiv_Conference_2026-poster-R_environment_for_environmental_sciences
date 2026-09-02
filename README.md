@@ -28,7 +28,7 @@ the other three.
 
 | Path | What it is |
 |---|---|
-| `poster.html` | The poster: A0 portrait (841 × 1189 mm), self-contained: every image, font and script is embedded, so this one file is the whole deliverable. Open it in any browser. |
+| `poster.html` | The poster: A0 portrait (841 × 1189 mm). Every image and script is embedded, so this one file opens in any browser with nothing alongside it. Fonts are system stacks rather than embedded faces, so exact typography depends on the machine; the PDF on Zenodo is the fixed-typography version. |
 | `generate_qr.R` | Generates the poster's QR code as a compact single-path SVG. |
 | `assets/` | The generated QR code. Source material only: `poster.html` embeds its own copy and does not read this directory. |
 | `abstract.md` | The conference abstract. |
